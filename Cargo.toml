@@ -1,0 +1,13 @@
+[package]
+name = "h264-realtime-encoding"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+opencv = { version = "0.88.8" }
+log = {  version = "0.4.20" }
+openh264 = { version = "0.5.0" }
+bitstream-io = { version = "2.2.0" }
+simple_logger = { version = "4.2.0" }
